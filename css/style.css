@@ -50,6 +50,9 @@ a.hire_me_btn {
 .middle {
     margin-top: 120px;
     display: flex;
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .middle-half-width {
