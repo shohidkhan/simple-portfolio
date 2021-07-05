@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .name span {
     color: orange;
     font-size: 50px;
@@ -17,7 +21,7 @@ p {
     color: dimgray;
 }
 
-section {
+.flex-container {
     display: flex;
 }
 
@@ -62,4 +66,39 @@ a.hire_me_btn {
 
 .middle-half-width img {
     width: 100%;
+}
+
+.experience {
+    margin-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.experience h3 {
+    color: orange;
+}
+
+.ex-width {
+    width: 50%;
+    margin: 0 4%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 50px 25px;
+    border-left: 8px solid orange;
+}
+
+#left {
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+
+#right {
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
